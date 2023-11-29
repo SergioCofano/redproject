@@ -2,8 +2,8 @@ body {
 
     font-family: 'Rajdhani', sans-serif;
 }
-*li {
-    text-decoration:none ;
+ul {
+    list-style-type: none ;
 }
   
 
@@ -12,4 +12,4 @@ body {
 /* nav {
     height: 10vh;
     background-color: black;
-} */ */
+} */ 
