@@ -1,9 +1,15 @@
+nav{
+    background-color: #ececec;
+}
 body {
+font-family: 'Rajdhani', sans-serif;
 
-    font-family: 'Rajdhani', sans-serif;
+margin-left: 20vw;
+margin-right: 20vw;
 }
 ul {
     list-style-type: none ;
+    
 }
 header{
     
@@ -17,12 +23,22 @@ header{
     justify-content: end;
     align-items: start;
    
- }
- .imgmontagna1{
-    
-   
-    
- }
+}
+header > h1{
+    color: #cd2f30;
+}
+
+main{
+    height: 100vh;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.imgmain{
+    width: 70%;
+}
 
   
 
