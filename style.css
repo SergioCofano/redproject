@@ -5,7 +5,28 @@ body {
 ul {
     list-style-type: none ;
 }
+header{
+    
+    height: 80vh;
+    background: linear-gradient(to top, #33333300, #ececec) , url(./media/switzerland-862870_1920.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
+   
+ }
+ .imgmontagna1{
+    
+   
+    
+ }
+
   
+
+
 
 
 
