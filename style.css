@@ -14,32 +14,24 @@ ul {
 }
 header{
     
-    height: 100vh;
+ 
     background: linear-gradient(to top, #33333300, #ececec) , url(./media/switzerland-862870_1920.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: start;
-    position: relative;
-   
+ 
    
 }
  h1{
-    color: #cd2f30; 
-    position:absolute;
-    bottom: 50%;
-    left: 40%;
-   /*  */
-}
+    letter-spacing: 40px;
+ }
+
 .img-custom{
     position: absolute;
-    bottom: 0px;
+    bottom: -140px;
     left:0;
     width: 100%;
-    
+
     
    
       
