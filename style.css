@@ -27,14 +27,17 @@ header{
    
    
 }
-header > h1{
-    color: #cd2f30;
+ h1{
+    color: #cd2f30; 
+    position:absolute;
+    bottom: 50%;
+    left: 40%;
 }
 .img-custom{
     position: absolute;
     bottom: 0px;
     left:0;
-    width: 90%;
+    width: 100%;
     
     
    
