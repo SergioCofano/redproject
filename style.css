@@ -1,69 +1,92 @@
-
-
-nav{
-    background-color: #ececec;
-}
 body {
-font-family: 'Rajdhani', sans-serif;
-width: 800;
-
-/* margin-left: 20vw;
-margin-right: 20vw; */
-}
-ul {
-    list-style-type: none ;
+    font-family: 'Rajdhani', sans-serif;
+    width: 800;
     
-}
-header{
     
- 
-    background: linear-gradient(to top, #33333300, #ececec) , url(./media/switzerland-862870_1920.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no repeat;
- 
-   
-}
- h1{
-    letter-spacing: 40px;
-    color: #8b0102 ;
- }
-
-.img-custom{
-    position: absolute;
-    bottom: -140px;
-    left:0;
-    width: 100%;
-
+    }
+    h1{
+       letter-spacing: 40px;
+       color: #8b0102 ;
+     
     
-   
+    }
+    
+    h2{
+        color: #8b0102;
+        font-weight: bold;
+    }
+    /* inizio navbar */
+    nav{
+        background-color: #ececec;
+    }
+    ul {
+        list-style-type: none ;
+        
+    }
+       /* fine navbar */
+    
+      /* inizio header */
+    header{
+        background: linear-gradient(to top, #33333300, #ececec) , url(./media/switzerland-862870_1920.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no repeat;
+        }
+    
+    .img-custom{
+        position: absolute;
+        bottom: -140px;
+        left:0;
+        width: 100%;
+    
+        }
+    
+        /* fine navbar */
+    
+         /* inizio main */
+    main{
+        background: url(./media/trees2.png);  
+        background-color: #ececec;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+       /* primo p */
+    .paragrafo-main::before{
+        content: url(./quote-left-solid.svg);
+    }
+    .paragrafo-main::after{
+        content: url(./quote-right-solid.svg);
+    }
+    
+    .paragrafo-main{
+        color:#6c757e;
+    }
+      /* fino primo p */
+    
+      /* sezione icone */
+    
+    .logo-lorem{
+       border-bottom: 3px solid #8b0102;
+    }
+       
+    /* BUTTON-MAIN */
+    .button{
+        color: whitesmoke;
+        background-color: #8b0102;
+        padding: 10px 30px 10px 30px;
+        font-size: large;
+    }
       
-}
-
-
-main{
-  
-    background-color: #ececec;
- 
-}
-.paragrafo-main::before{
-    content: url(./quote-left-solid.svg);
-}
-.paragrafo-main::after{
-    content: url(./quote-right-solid.svg);
-}
-
-.paragrafo-main{
-    color:#6c757e;
-}
-
-  
-
-
-
-
-
-/* nav {
-    height: 10vh;
-    background-color: black;
-} */ 
+      /* fine main */
+    
+      
+    
+    
+    
+    
+    
+    /* nav {
+        height: 10vh;
+        background-color: black;
+    } */ 
