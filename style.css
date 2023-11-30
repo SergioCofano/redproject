@@ -1,3 +1,5 @@
+
+
 nav{
     background-color: #ececec;
 }
@@ -24,6 +26,7 @@ header{
 }
  h1{
     letter-spacing: 40px;
+    color: #8b0102 ;
  }
 
 .img-custom{
@@ -39,15 +42,19 @@ header{
 
 
 main{
-    height: 100vh;
+  
     background-color: #ececec;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
+ 
+}
+.paragrafo-main::before{
+    content: url(./quote-left-solid.svg);
+}
+.paragrafo-main::after{
+    content: url(./quote-right-solid.svg);
 }
 
-.imgmain{
-    width: 100%;
+.paragrafo-main{
+    color:#6c757e;
 }
 
   
