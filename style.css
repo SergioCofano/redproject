@@ -3,9 +3,10 @@ nav{
 }
 body {
 font-family: 'Rajdhani', sans-serif;
+width: 800;
 
-margin-left: 20vw;
-margin-right: 20vw;
+/* margin-left: 20vw;
+margin-right: 20vw; */
 }
 ul {
     list-style-type: none ;
@@ -13,7 +14,7 @@ ul {
 }
 header{
     
-    height: 80vh;
+    height: 100vh;
     background: linear-gradient(to top, #33333300, #ececec) , url(./media/switzerland-862870_1920.jpg);
     background-position: center;
     background-size: cover;
@@ -22,11 +23,24 @@ header{
     flex-direction: column;
     justify-content: end;
     align-items: start;
+    position: relative;
+   
    
 }
 header > h1{
     color: #cd2f30;
 }
+.img-custom{
+    position: absolute;
+    bottom: 0px;
+    left:0;
+    width: 90%;
+    
+    
+   
+      
+}
+
 
 main{
     height: 100vh;
@@ -37,7 +51,7 @@ main{
 }
 
 .imgmain{
-    width: 70%;
+    width: 100%;
 }
 
   
