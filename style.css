@@ -44,13 +44,10 @@ body {
         /* fine navbar */
     
          /* inizio main */
-    main{
-        background: url(./media/trees2.png);  
-        background-color: #ececec;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+    .sezione-lorem{
+        position: relative;
+         background-color: #ececec;
+        }
        /* primo p */
     .paragrafo-main::before{
         content: url(./quote-left-solid.svg);
@@ -61,6 +58,14 @@ body {
     
     .paragrafo-main{
         color:#6c757e;
+    }
+
+    .sagoma-alberi{
+        position: absolute;
+        bottom: 0px;
+        left:0;
+        width: 100%;
+
     }
       /* fino primo p */
     
