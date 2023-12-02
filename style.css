@@ -154,10 +154,27 @@ body {
 
     /* inizio sezione card tonde */
    
+    .benefit{
+        width: 200px;
+        height: 200px;
+
+    }
+    h2{
+        color: #8b0102;
+    
+    }
+     
+    h5{
+        color: #8b0102;
+    }
   .img-card-tonda{
 
     width: 200px;
     height: 200px;
+
+
+    
+    }
  
         /* background-position: center;
         background-size: cover;
@@ -165,12 +182,8 @@ body {
         width: 300px;
         border: 3px solid #8b0102;
         border-radius: 100%; */
-    }
-    .sotto-titolo-card{
-        /* margin-top: 200px; */
-    }
-
-
+    
+    
 
     /* fine sezione card tonde */
       
