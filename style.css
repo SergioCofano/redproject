@@ -1,40 +1,41 @@
-:root {    
+
+:root {
     --primary-grey: #ececec;
     --primary-white: whitesmoke;
     --text-grey:#6c757e;
     --text-red:#8b0102 ;
-    }
-
+}
 .bg-primary-grey{
     background-color: var(--primary-grey);
-    }
-
-
+}
 body {
     font-family: 'Rajdhani', sans-serif;
-    width: 800;   
-    }
+    width: 800;
     
+    
+    }
     h1{
        letter-spacing: 40px;
-       color: #8b0102 ;      
+       color: #8b0102 ;
+     
+    
     }
     
     h2{
         color: #8b0102;
         font-weight: bold;
     }
-    
-        /* inizio navbar */
+    /* inizio navbar */
     nav{
         background-color: #ececec;
     }
     ul {
-        list-style-type:none;       
+        list-style-type: none ;
+        
     }
-        /* fine navbar */
+       /* fine navbar */
     
-         /* inizio header */
+      /* inizio header */
     header{
         background: linear-gradient(to top, #33333300, #ececec) , url(./media/switzerland-862870_1920.jpg);
         background-position: center;
@@ -79,12 +80,25 @@ body {
       /* fino primo p */
     
       /* sezione icone */
-      /*     
-      .logo-lorem{
+    
+    .logo-lorem{
        border-bottom: 3px solid #8b0102;
-       
-    } */
+       align-items: end;
+    }
 
+.contenitore-timeline{
+    border-left: 3px solid #8b0102;
+    
+
+}
+    
+    .img-timeline{
+        color:#6c757e;
+    width: 100%;
+    
+
+        
+    }
       /* sezione icone */
 
       .line{
@@ -105,10 +119,6 @@ body {
        border-radius: 50%;
        top: calc(95%);
        left: calc(46%);
-       
-       
-       
- 
      }
  
      /* FINE SEZIONE ICONE */
@@ -120,3 +130,90 @@ body {
         padding: 10px 30px 10px 30px;
         font-size: large;
     }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* inizio sezione card tonde */
+   
+  .img-card-tonda{
+
+    width: 200px;
+    height: 200px;
+ 
+    }
+    .contenitore-card-tonde{
+        background-color: #ececec;
+    }
+
+
+    /* fine sezione card tonde */
+      
+      /* fine main */
+    
