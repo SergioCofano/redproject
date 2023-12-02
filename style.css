@@ -1,31 +1,40 @@
+:root {    
+    --primary-grey: #ececec;
+    --primary-white: whitesmoke;
+    --text-grey:#6c757e;
+    --text-red:#8b0102 ;
+    }
+
+.bg-primary-grey{
+    background-color: var(--primary-grey);
+    }
+
+
 body {
     font-family: 'Rajdhani', sans-serif;
-    width: 800;
-    
-    
+    width: 800;   
     }
+    
     h1{
        letter-spacing: 40px;
-       color: #8b0102 ;
-     
-    
+       color: #8b0102 ;      
     }
     
     h2{
         color: #8b0102;
         font-weight: bold;
     }
-    /* inizio navbar */
+    
+        /* inizio navbar */
     nav{
         background-color: #ececec;
     }
     ul {
-        list-style-type: none ;
-        
+        list-style-type:none;       
     }
-       /* fine navbar */
+        /* fine navbar */
     
-      /* inizio header */
+         /* inizio header */
     header{
         background: linear-gradient(to top, #33333300, #ececec) , url(./media/switzerland-862870_1920.jpg);
         background-position: center;
@@ -70,11 +79,39 @@ body {
       /* fino primo p */
     
       /* sezione icone */
-    
-    .logo-lorem{
+      /*     
+      .logo-lorem{
        border-bottom: 3px solid #8b0102;
        
-    }
+    } */
+
+      /* sezione icone */
+
+      .line{
+        border-bottom: 8px solid #8b0102;
+        width: 300px;
+        left:calc(10%-75px)  ;
+        position: relative;
+ 
+     }
+ 
+     .line::before{
+       content: '';
+       position:absolute;
+       width: 25px;
+       height: 25px;
+       background-color: white;
+       border: 4px solid #8b0102;
+       border-radius: 50%;
+       top: calc(95%);
+       left: calc(46%);
+       
+       
+       
+ 
+     }
+ 
+     /* FINE SEZIONE ICONE */
        
     /* BUTTON-MAIN */
     .button{
