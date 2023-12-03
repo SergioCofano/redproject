@@ -42,6 +42,7 @@ body {
         background-size: cover;
         background-repeat: no repeat;
         }
+
     
     .img-custom{
         position: absolute;
@@ -54,6 +55,10 @@ body {
         /* fine navbar */
     
          /* inizio main */
+
+         main{
+            height: 100%;
+         }
     .sezione-lorem{
         position: relative;
          background-color: #ececec;
@@ -87,14 +92,36 @@ body {
     }
 
 .contenitore-timeline{
+ 
     border-left: 3px solid #8b0102;
+    left: calc(10%);
     
+
+}
+.timeline{
+    position: relative;
+    left: calc(5%);
+   
+}
+
+.timeline::before{
+    content: '';
+    position:absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 4px solid #8b0102;
+    border-radius: 50%;
+    left: calc(-7.4%);
+    top: calc(3%);
+  
 
 }
     
     .img-timeline{
-        color:#6c757e;
+        /* color:#6c757e; */
     width: 100%;
+    z-index: 2;
     
 
         
@@ -119,7 +146,9 @@ body {
        border-radius: 50%;
        top: calc(95%);
        left: calc(46%);
-     }
+       
+       
+ }
  
      /* FINE SEZIONE ICONE */
        
@@ -131,89 +160,132 @@ body {
         font-size: large;
     }
 
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /* sezione our benefit */
+    .benefit{
+        width: 250px;
+        height: 250px;
+        border: 2px solid var(--text-red);
+    }
+    /*  fine sezione our benefit */
     /* inizio sezione card tonde */
-   
-  .img-card-tonda{
-
-    width: 200px;
-    height: 200px;
- 
+    
+    .img-card-tonda{
+        
+        width: 200px;
+        height: 200px;
+        
     }
     .contenitore-card-tonde{
         background-color: #ececec;
     }
-
-
-    /* fine sezione card tonde */
-      
-      /* fine main */
     
+    
+    /* fine sezione card tonde */
+    
+    /* fine main */
+    
+
+    /* inizio footer */
+ 
+    footer{
+       
+        background-color:#8b0102 ;
+    }
+
+    .footer-custom > h2{
+        color: #ececec;
+     
+        
+        
+         
+    }
+    
+   
+    
+    .mb-0{margin-bottom: 500px;}
+    
+    
+    .alberi-footer{
+        width: 100%;
+    }
+    
+    
+    
+    
+   /* fine footer */
+    
+
+
+
+@media screen and (min-widht:600px){
+
+    .timeline{
+        top:calc(3%);
+        left:calc(7.4%);
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
