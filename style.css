@@ -23,6 +23,7 @@ body {
     }
     
     h2{
+        font-family: 'Rajdhani', sans-serif;
         color: #8b0102;
         font-weight: bold;
     }
@@ -118,7 +119,9 @@ body {
 }
 
 .our-timeline{
-    font-size:50px;
+ font-family: 'Rajdhani', sans-serif;
+    font-size:40px;
+    padding: 50px 0px 0px 30px;
     
 }
 
@@ -131,7 +134,7 @@ body {
     background-color: white;
     border: 4px solid #8b0102;
     border-radius: 50%;
-    left: calc(0% - 12.5px);
+    left: calc(0% - 13.5px);
   
   
 
@@ -168,6 +171,26 @@ body {
  
      /* FINE SEZIONE ICONE */
        
+     /* inizio sezione card tonde */
+   
+     .img-card-tonda{
+        
+         border: 5px solid var(--text-red);
+         border-radius: 50%;
+         width: 200px;
+         height: 200px;
+         
+     }
+     .contenitore-card-tonde{
+         background-color: #ececec;
+     }
+     .our-team{
+        font-size: 40px;
+        padding: 50px 0px 20px 50px;
+     }
+     
+     
+     /* fine sezione card tonde */
 
     /* sezione our benefit */
     .benefit{
@@ -177,26 +200,6 @@ body {
         border: 2px solid var(--text-red);
     }
     /*  fine sezione our benefit */
-    /* inizio sezione card tonde */
-    
-    .img-card-tonda{
-
-        border: 3px solid var(--text-red);
-        border-radius: 50%;
-        width: 200px;
-        height: 200px;
-        
-    }
-    .contenitore-card-tonde{
-        background-color: #ececec;
-    }
-
-    h5{
-        color: #8b0102;
-    }
-    
-    
-    /* fine sezione card tonde */
     
     /* fine main */
     
